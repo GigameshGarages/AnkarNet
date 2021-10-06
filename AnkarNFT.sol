@@ -2,10 +2,10 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "../node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
-import "../node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
-import "../node_modules/@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol";
-import "../node_modules/@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol";
+import "./ERC721Upgradeable.sol";
+import "./OwnableUpgradeable.sol";
+import "./ReentrancyGuardUpgradeable.sol";
+import "./CountersUpgradeable.sol";
 
 contract AnkarNFT is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUpgradeable {
     using CountersUpgradeable for CountersUpgradeable.Counter;
