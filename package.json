@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "arb-ethers-web3-bridge": "^0.7.3"
+  }
+}
