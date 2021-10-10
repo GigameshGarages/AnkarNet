@@ -2,6 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "./ERC721Upgradeable.sol";
+import "./IERC721Upgradeable.sol";
 
 contract AnkarAuction {
     struct Bidder {
@@ -20,7 +21,7 @@ contract AnkarAuction {
     }
 
     address payable public recipientAddr;
-    IERC721 public nftContract;
+    IERC721Upgradeable public nftContract;
 
     uint256 numAuctions;
     Auction[] auctions;
@@ -32,7 +33,7 @@ contract AnkarAuction {
     uint256 constant platformFee = 50;
     uint256 constant feePercentage = 1000;
 
-    constructor(IERC721 _nftContract, address payable _recipientAddr) {
+    constructor(IERC721Upgradeable _nftContract, address payable _recipientAddr) {
         nftContract = _nftContract;
         recipientAddr = _recipientAddr;
     }
