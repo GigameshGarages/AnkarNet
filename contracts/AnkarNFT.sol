@@ -26,7 +26,7 @@ contract AnkarNFT is ERC721Upgradeable, OwnableUpgradeable, ReentrancyGuardUpgra
     function initialize() public initializer {
         OwnableUpgradeable.__Ownable_init();
         ReentrancyGuardUpgradeable.__ReentrancyGuard_init();
-        ERC721Upgradeable.__ERC721_init("NFTT", "NFTT");
+        ERC721Upgradeable.__ERC721_init("GlamGram", "GGM");
         setBaseURI("https://rh25q24tvf.execute-api.eu-west-2.amazonaws.com/dev/token?id=");
     }
 
