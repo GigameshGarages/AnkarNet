@@ -1,6 +1,6 @@
 pragma solidity ^0.8.0;
 
-import "./ERC721.sol";
+import "./ERC721Upgradeable.sol";
 
 contract AnkarAuction {
     struct Bidder {
