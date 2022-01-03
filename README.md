@@ -1,5 +1,8 @@
 # AnkarNet
 
+- First Version deployed on Ropsten TestNet
+- https://ropsten.etherscan.io/tx/0x860aee6667985a57c205cd9e12d413f0f8d71120671d273dfd72c0cd59041e63
+
 ## Inspiration
 - Decentralised Social Networks like Diaspora, and Arena.
 
